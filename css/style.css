@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* header*/
+
+div.sup{
+    background: #D1891C;
+    color: #333333;
+    font-size:10px;
+    padding-left: 10px;
+}
+
+ h1{
+background: #00669F;
+color:#FFFFFF;
+font-size: 20px;
+font-weight: 300;
+padding: 10px 0 10px 10px;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+section article{
+    width: 250px;
+    margin: 50px;
+    position: relative;
+    text-align: center;
+    background: #F3F3F3;
+    
+
+}
+
+/*batman*/
+
+article div.cardbat{
+    background-image: url('../img/fondobatman.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+    text-align: left;
+}
+
+img.fondobat{
+    border-radius: 50% ;
+    position: absolute;
+    bottom: 62px;
+    top: 148px;
+    left: calc(50% - (148px / 2));
+    width: 148px;
+
+
+}
+
+
+
+
+/*mujermaravilla*/
+
+article div.cardwoman{
+    background-image: url('../img/fondomujermaravilla.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+    text-align: left;
+}
+
+img.fondowander{
+    border-radius: 50%;
+    width: 148px;
+    position: absolute;
+    bottom: 62px;
+    top: 148px;
+    left: calc(50% - (148px / 2));
+}
+
+/*super man*/
+
+article div.cardsuper{
+    background-image: url('../img/Fondosuperman.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+    text-align: left;
+}
+
+img.fondosuper{
+    border-radius: 50%;
+    width: 148px;
+    position: absolute;
+    bottom: 62px;
+    top: 148px;
+    left: calc(50% - (148px / 2));
+}
+button.buts{
+    margin-top: 40px;
+    
+}
+
+/*harley*/
+
+article div.cardharley{
+    background-image: url('../img/fondoharley.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+    text-align: left;
+
+}
+
+img.fondoharley{
+    border-radius: 50%;
+    width: 148px;
+    position: absolute;
+    bottom: 62px;
+    top: 148px;
+    left: calc(50% - (148px / 2));
+}
+
+button.buth{
+    margin-top: 20px;
+}
+
+div i.fas{
+    color: red;
+    position: absolute;
+    
+    
+}
+
+article h4{
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color:#000000;
+    text-align: center;
+}
+
+p{
+    margin-top: 10px;
+    text-align: left;
+}
+
+div.plust button{
+    
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    
+    background: #00669F;
+    color: #FFFFFF;
+    
+}
+
+article button{
+    border: none;
+    padding: 15px 30px;
+    background:#00669F;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background:#00669F
+}
+
+footer p.bottom{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 5px;
+    
+}
+
+footer img.git{
+    width: 5%;
+    position: absolute;
+    right: 25px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 1400px) {
+    section article{
+        
+        width: 35%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    section article{
+        max-width: 500px;
+        width: 90%;
+    }
+
+    article.harley{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer img.git{
+        position: static;
+        align-self: center;
+        
+    }
+
+    footer p.bottom{
+        align-self: center;
+    }
+}
+

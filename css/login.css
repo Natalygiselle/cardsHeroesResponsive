@@ -46,3 +46,65 @@ div.sup2 h1{
 
 /* comienza el MAIN*/
 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-right: 15%;
+    
+    
+
+}
+
+div h2.form-conteiner{
+    padding-bottom: 5%;
+    font-size: 3.75rem;
+}
+
+
+input{
+    display:flex;
+    width: 250%;
+    padding: 5%;
+    margin: 5%;
+    border: solid 2px #000000;
+    
+}
+
+button{
+    background: #1CD1B0;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20%;
+    font-size: 1.7em;
+    text-align: center;
+    width: 250%;
+    padding: 3%;
+    
+}
+
+p.form-phrase{
+    margin-top: 2%;
+    margin-left: 15%;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background:#00669F;
+}
+
+p.bottom{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    padding: 1%;
+}
